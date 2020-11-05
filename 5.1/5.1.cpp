@@ -19,6 +19,5 @@ int main()
 
 double k(const double x, const double y) // визначення
 {
-	return ((sin(x) / (pow(x, 2) + pow(y, 2))) + (cos(y) / (1 + abs(x * y))));
-	system("pause");
+	return (round(((sin(x) / (pow(x, 2) + pow(y, 2))) + (cos(y) / (1 + abs(x * y)))) * 1000000) / 1000000);
 }
